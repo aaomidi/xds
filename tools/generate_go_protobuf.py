@@ -32,5 +32,5 @@ def generateProtobufs(output):
 
 if __name__ == "__main__":
   workspace = check_output(['bazel', 'info', 'workspace']).decode().strip()
-  output = os.path.join(workspace, 'go')
+  output = os.path.join(workspace)
   generateProtobufs(output)
