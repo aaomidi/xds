@@ -6,7 +6,7 @@ import "xds/annotations/v3/status.proto";
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/cncf/xds/go/xds/annotations/v3";
+option go_package = "github.com/aaomidi/xds/xds/annotations/v3";
 
 // All annotations in this file are experimental and subject to change. Their
 // only consumer today is the Envoy APIs and SecuritAnnotationValidator protoc

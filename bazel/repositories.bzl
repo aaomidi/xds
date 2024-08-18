@@ -15,15 +15,7 @@ def xds_api_dependencies():
         locations = REPOSITORY_LOCATIONS,
     )
     xds_http_archive(
-        name = "com_google_googleapis",
-        locations = REPOSITORY_LOCATIONS,
-    )
-    xds_http_archive(
         "com_google_protobuf",
-        locations = REPOSITORY_LOCATIONS,
-    )
-    xds_http_archive(
-        name = "dev_cel",
         locations = REPOSITORY_LOCATIONS,
     )
     xds_http_archive(

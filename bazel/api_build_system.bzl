@@ -1,7 +1,7 @@
 load("@com_envoyproxy_protoc_gen_validate//bazel:pgv_proto_library.bzl", "pgv_cc_proto_library")
 load("@com_github_grpc_grpc//bazel:python_rules.bzl", _py_proto_library = "py_proto_library")
 load("@io_bazel_rules_go//go:def.bzl", "go_test")
-load("@io_bazel_rules_go//proto:def.bzl", "go_grpc_library", "go_proto_library")
+load("@io_bazel_rules_go//proto:def.bzl", "go_proto_library")
 load("@rules_proto//proto:defs.bzl", "proto_library")
 load(
     "//bazel:external_proto_deps.bzl",
@@ -13,7 +13,7 @@ _PY_PROTO_SUFFIX = "_py_proto"
 _CC_PROTO_SUFFIX = "_cc_proto"
 _CC_GRPC_SUFFIX = "_cc_grpc"
 _GO_PROTO_SUFFIX = "_go_proto"
-_GO_IMPORTPATH_PREFIX = "github.com/cncf/xds/go/"
+_GO_IMPORTPATH_PREFIX = "github.com/aaomidi/xds/"
 
 _COMMON_PROTO_DEPS = [
     "@com_google_protobuf//:any_proto",

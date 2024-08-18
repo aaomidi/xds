@@ -4,7 +4,7 @@ package xds.annotations.v3;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/cncf/xds/go/xds/annotations/v3";
+option go_package = "github.com/aaomidi/xds/xds/annotations/v3";
 
 extend google.protobuf.MessageOptions {
   // Magic number is the 28 most significant bits in the sha256sum of

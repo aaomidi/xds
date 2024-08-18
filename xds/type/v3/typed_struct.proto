@@ -5,7 +5,7 @@ package xds.type.v3;
 option java_outer_classname = "TypedStructProto";
 option java_multiple_files = true;
 option java_package = "com.github.xds.type.v3";
-option go_package = "github.com/cncf/xds/go/xds/type/v3";
+option go_package = "github.com/aaomidi/xds/xds/type/v3";
 
 import "google/protobuf/struct.proto";
 
